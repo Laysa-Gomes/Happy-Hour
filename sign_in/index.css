@@ -1,0 +1,173 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "League Spartan", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-color: #00193a;
+  background-image: url(../images/bg_sign.png);
+  background-repeat: no-repeat;
+  background-size: 60% 100vh;
+  color: white;
+}
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1vw;
+}
+.logo {
+  width: 4vw;
+  padding:0.5vw;
+}
+main {
+  width: 100%;
+  display: flex;
+}
+.box_one {
+  width: 60%;
+  height: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.text_box {
+  width: 100%;
+  height: 35vw;
+  display: flex;
+  font-size: 1vw;
+  flex-direction: column;
+  padding: 2.5vw ;
+}
+.container {
+  width: 100%;
+  display: flex;
+}
+.decoration {
+  width: 0.4vw;
+  height: 5.5vw;
+  background-color: #a280ec;
+}
+h2 {
+  width: 80%;
+  padding-left: 1vw;
+  font-size: 2.8vw;
+}
+.p1 {
+  width: 100%;
+  padding-top: 0.5vw;
+}
+.friends {
+  width: 30vw;
+}
+.box_two {
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  font-size: 1vw;
+  top: 0;
+  right: 0;
+  color: rgb(28, 28, 28);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+.cont_h3 {
+  width: 100%;
+  padding-top: 7vw;
+  font-size: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social {
+  width: 27%;
+  padding: 0.8vw;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.fb {
+  width: 1.5vw;
+}
+.in {
+  width: 1.5vw;
+}
+.ig {
+  width: 1.5vw;
+}
+.p2 {
+  width: 100%;
+  color: #737373;
+  padding-top: 1.2vw;
+  display: flex;
+  justify-content: center;
+}
+form {
+  width: 100%;
+  height: 30vw;
+  padding-top:  1.2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cont_e {
+  width: 60%;
+  padding-bottom: 1.3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inp_e {
+  width: 100%;
+  height: 3vw;
+  font-size: 1vw;
+  border: none;
+  border-radius: 5px;
+  padding-left: 2vw;
+  background-image: url(../images/email_icon.png);
+  background-repeat: no-repeat;
+  background-size: 1.5vw;
+  background-position: 0.5vw;
+  background-color: #d9d9d9;
+}
+.inp_pswrd {
+  width: 100%;
+  height: 3vw;
+  font-size: 1vw;
+  border: none;
+  border-radius: 5px;
+  padding-left: 2vw;
+  background-image: url(../images/pswrd_icon.png);
+  background-repeat: no-repeat;
+  background-size: 1.5vw;
+  background-position: 0.5vw;
+  background-color: #d9d9d9;
+}
+.cont_p {
+  width: 60%;
+  background-color: #ffffff;
+  display: flex;
+  padding-bottom: 80px;
+  align-items: center;
+}
+.btn {
+  width: 30%;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 0.9vw;
+  padding: 15px;
+  background-color: #ff5757;
+}
+.att{
+  width: 100%;
+  text-align: center;
+  font-size: 1.5vw;
+  padding: 1vw;
+  color: #f0536a;
+}

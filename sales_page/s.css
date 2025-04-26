@@ -1,0 +1,261 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "League Spartan", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+header {
+  width: 100%;
+  padding: 0.4vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img_hh {
+  width: 2.5vw;
+  margin-left: 5%;
+}
+.nav_bar {
+  width: 35%;
+  display: flex;
+  font-size: 1vw;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.box_01 {
+  display: flex;
+  justify-content: space-around;
+  width: 10%;
+}
+.a_nav {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+.a_nav:hover {
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.list {
+  width: 90%;
+  position: relative;
+  text-align: center;
+  padding: 0.5vw;
+  z-index: 1;
+}
+
+.list::before {
+  content: "";
+  width: 0%;
+  height: 10%;
+  background-color:#8253f0;
+  position: absolute;
+  top: 100%;
+  left: 2.5vw;
+  z-index: 2;
+}
+.list:hover::before {
+  content: "";
+  width: 50%;
+  transition: 0.5s;
+}
+
+.icon_u {
+  width: 1vw;
+}
+.cont_e {
+  width: 45%;
+  display: flex;
+  font-size: 0.8vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.a_one {
+  width: 80%;
+  justify-content: space-around;
+  text-decoration: none;
+  color: #f0536a;
+  display: flex;
+  align-items: center;
+}
+.icon_e {
+  width: 1vw;
+}
+h1 {
+  width: 100%;
+  font-size: 3vw;
+  padding: 2vw 5vw 5vw 5vw;
+}
+.cont_info {
+  width: 100%;
+  font-size: 1.2vw;
+  height: 30vw;
+  display: flex;
+  justify-content: center;
+}
+.info {
+  width: 90%;
+  padding: 3%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #00193a;
+  border-radius: 2.5vw;
+  color: white;
+  box-shadow: 6px 6px 5px rgb(26, 25, 25);
+}
+.img_t {
+  width: 18vw;
+  bottom: 5vw;
+  left: 2vw;
+  position: relative;
+  box-shadow: 6px 6px 5px rgb(26, 25, 25);
+}
+.pf{
+  width: 50%;
+  font-size: 0.5vw;
+  position: relative;
+  bottom:4vw;
+  left: 2vw;
+}
+.p1 {
+  width: 50%;
+  padding: 6vw 0vw 0vw 2vw;
+  text-align: justify;
+}
+.cont_seats {
+  width: 100%;
+  padding: 4vw;
+  display: flex;
+  justify-content: space-around;
+}
+.div_seats{
+  width: 50%;
+}
+.sector {
+  width: 34vw;
+}
+.pf_02{
+  width: 75%;
+  text-align: center;
+  font-size: 0.8vw;
+}
+h2 {
+  font-size: 2vw;
+  padding-bottom: 3vw;
+}
+.form_one {
+  width: 40%;
+  padding: 5vw 0vw 0vw 7vw;
+  display: flex;
+  flex-direction: column;
+}
+.cont_inp {
+  width: 60%;
+  margin-bottom: 0.5vw;
+  display: flex;
+  padding: 1vw;
+  background-color: #d9d9d9;
+}
+.cont_lab {
+  width: 90%;
+  padding-left: 0.5vw;
+  font-size: 0.8vw;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  font-size: 1vw;
+  width: 60%;
+  height: 4vw;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.inp_decoration {
+  height: 2vw;
+  font-size: 1vw;
+  padding: 0.5vw;
+}
+
+h3 {
+  width: 100%;
+  font-size: 2vw;
+  padding: 3vw;
+}
+
+.inp_s {
+  width: 35%;
+  height: 3vw;
+  color: white;
+  border: none;
+  border-radius: 0.5vw;
+  background-color: #051163;
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+.inp_c {
+  width: 35%;
+  height: 3vw;
+  color: white;
+  border: none;
+  border-radius: 0.5vw;
+  background-color: #f0536a;
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+.cont_btn{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  width: 100%;
+  height: 4vw;
+  padding: 0vw 9vw 0vw 9vw;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #00193a;
+  background-repeat: no-repeat;
+  background-size: 12%;
+  background-position: 50% 4%;
+  color: white;
+}
+.a_navf {
+  width: 100%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+}
+.a_navf :hover {
+  font-weight: bold;
+}
+.nav_01 {
+  width: 30%;
+  display: flex;
+  font-size: 1vw;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form_one {
+  width: 40%;
+  padding: 5vw 0vw 0vw 7vw;
+  display: flex;
+  flex-direction: column;
+}
+.att{
+  width: 100%;
+  text-align: center;
+  font-size: 1.5vw;
+  padding: 1vw;
+  color: #f0536a;
+}
